@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float rate;
+    rate=7.56;
+    printf("Rate is: %f", rate);
+}
