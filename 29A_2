@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    char name[50]="Aaditya Nookala";
+    char address[500]="1822\tColonial\tLn\t.Unit\t#1\tChanhassen\tMinnesota\t55317\t";
+    printf("\nName is:%s\n", name);
+    printf("\nAddress is:%s\n", address);
+}
+
+
