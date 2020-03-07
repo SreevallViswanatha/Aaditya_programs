@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+int integer;
+printf("\nEnter any integer value:");
+scanf("%d", &integer);
+printf("\nThe integer that you have just entered is: %d\n", integer);
+}
