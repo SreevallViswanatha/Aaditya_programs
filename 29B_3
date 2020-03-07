@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+  float real_value;
+  printf("Please enter a real number:");
+  scanf("%f", &real_value);
+  printf("The number that you have entered is:%.2f", real_value);
+}
