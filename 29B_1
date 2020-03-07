@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+   float rate;
+   printf("\nPlease enter a decimal digit: ");
+   scanf("%f", &rate);
+   printf("\nThe number you have entered is : %.2f\n", rate);
+}
