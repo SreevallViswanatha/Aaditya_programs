@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    printf("\nThe\\C\\programming\\language\\was\\developed\\to\\do\\system\\programming\\for\\the\\operating\\system\\UNIX\n");
+}
