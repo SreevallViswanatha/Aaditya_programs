@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int firstNumber, secondNumber, difference;
+   printf("\nEnter the first number: ");
+   scanf("%d",&firstNumber);
+   printf("\nEnter the second number: ");
+   scanf("%d", &secondNumber);
+   difference=firstNumber-secondNumber;
+   printf("\nThe difference is: %d\n\n\n\n\n\n", difference);
+
+
+}
