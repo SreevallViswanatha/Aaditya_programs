@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char letter;
+    printf("\nPlease enter the letter: ");
+    scanf("%c", &letter);
+    printf("\nThe letter you have entered is: %c\n", letter);
+
+}
