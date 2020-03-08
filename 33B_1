@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float discount, amount, netAmount;
+    printf("Enter the amount: ");
+    scanf("%f", &amount);
+    printf("Enter the discount: ");
+    scanf("%f", &discount);
+    netAmount=amount-amount*discount/100;
+    printf("The Net Amount is: %.2f", netAmount);
+}
