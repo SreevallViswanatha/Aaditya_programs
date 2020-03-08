@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+  float salary, netsalary, HRA, DA, PF, IncomeTax;
+  printf("\nEnter the salary: ");
+  scanf("%f", &salary);
+  HRA=0.4*salary;
+  DA=0.2*salary;
+  PF=0.02*salary;
+  IncomeTax=0.1*salary;
+  printf("\nThe HRA is: %.2f\n", HRA);
+  printf("\nThe DA is: %.2f\n", DA);
+  printf("\nThe PF is: %.2f\n", PF);
+  printf("\nThe IncomeTax is: %.2f\n", IncomeTax);
+  netsalary=salary+HRA+DA-PF-IncomeTax;
+  printf("\nThe net salary is: %.2f\n", netsalary);
+
+}
