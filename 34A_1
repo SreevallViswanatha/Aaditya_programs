@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int subject1, subject2, subject3, subject4, subject5;
+    float aggregatemarks, percentagemarks;
+    printf("Enter the marks for subject1: ");
+    scanf("%d", &subject1);
+    printf("Enter the marks for subject2: ");
+    scanf("%d", &subject2);
+    printf("Enter the marks for subject3: ");
+    scanf("%d", &subject3);
+    printf("Enter the marks for subject4: ");
+    scanf("%d", &subject4);
+    printf("Enter the marks for subject5: ");
+    scanf("%d", &subject5);
+    aggregatemarks=subject1+subject2+subject3+subject4+subject5;
+    percentagemarks=aggregatemarks/5;
+    printf("\n\n\nThe aggregate marks are: %.2f",aggregatemarks);
+    printf("\nThe percentage marks are: %.2f\n\n\n\n",percentagemarks);
+}
