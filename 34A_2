@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+   float length, breadth, area;
+   printf("Enter the length of the rectangle in cm: ");
+   scanf("%f", &length);
+   printf("Enter the breath of the rectangle in cm: ");
+   scanf("%f", &breadth);
+   area=length*breadth;
+   printf("The area of the rectangle is: %.2f", area);
+}
