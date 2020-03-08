@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   float length, breath, perimeter;
+   printf("Enter the length of a rectangle in cm: ");
+   scanf("%f", &length);
+   printf("Enter the breath of a rectangle in cm: ");
+   scanf("%f", &breath);
+   perimeter=(2*(length+breath));
+   printf("The perimeter is: %.2f", perimeter);
+}
