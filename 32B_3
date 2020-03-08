@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+  int sum, difference, multiplication, quotient, modulus,firstNumber, secondNumber;
+  printf("\nEnter first number: ");
+  scanf("%d", &firstNumber);
+  printf("\nEnter second number: ");
+  scanf("%d", &secondNumber);
+  sum=firstNumber+secondNumber;
+  difference=firstNumber-secondNumber;
+  multiplication=firstNumber*secondNumber;
+  quotient=firstNumber/secondNumber;
+  modulus=firstNumber%secondNumber;
+  printf("\n\n\nThe sum is: %d", sum);
+  printf("\nThe difference is: %d", difference);
+  printf("\nThe multiplication is: %d", multiplication);
+  printf("\nThe quotient is: %d", quotient);
+  printf("\nThe modulus is: %d\n\n\n", modulus);
+
+}
