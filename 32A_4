@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+   float firstNumber, secondNumber, quotient;
+   printf("Enter first number: ");
+   scanf("%f", &firstNumber);
+   printf("Enter second number: ");
+   scanf("%f", &secondNumber);
+   quotient=firstNumber/secondNumber;
+   printf("The quotient is: %.2f",quotient);
+
+
+
+}
