@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+   int firstNumber, secondNumber, remainder;
+   printf("Enter firstNumber: ");
+   scanf("%d", &firstNumber);
+   printf("Enter secondNumber: ");
+   scanf("%d", &secondNumber);
+   remainder=firstNumber%secondNumber;
+   printf("The remainder is: %d",remainder);
+}
