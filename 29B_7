@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+   char name[100];
+   printf("\nPlease enter a enter a name: ");
+  fgets(name,sizeof(name), stdin);
+   printf("\nThe name you have entered is: %s\n", name);
+}
