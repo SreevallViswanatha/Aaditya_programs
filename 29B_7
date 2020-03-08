@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char sentence[100];
+   printf("\nPlease enter a sentence: ");
+  fgets(sentence,sizeof(sentence), stdin);
+   printf("\nThe sentence you have entered is: %s\n", sentence);
+}
+
+
+
