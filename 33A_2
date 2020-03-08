@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    float millimeters, inches;
+    printf("\nEnter the millimeters: ");
+    scanf("%f", &millimeters);
+    inches=millimeters*0.25;
+    printf("\n\n\n%.2f millimeters is: %.2f inches\n\n\n\n", millimeters, inches);
+}
