@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float radius, circumference;
+    printf("Enter the radius: ");
+    scanf("%f", &radius);
+    circumference=(2*3.14*radius);
+    printf("The circumference of the circle,where radius %.2f is: %.2f", radius, circumference);
+
+}
