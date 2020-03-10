@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  float A0ht, A0wd, A1ht, A1wd, A2ht, A2wd, A3ht, A3wd, A4ht, A4wd, A5ht, A5wd, A6ht, A6wd, A7ht, A7wd, A8ht, A8wd;
+  A0ht=1189;
+  A0wd=841;
+  printf("The size of A0 paper height=%f , width=%f\n",A0ht, A0wd);
+  A1ht=A0wd;
+  A1wd=A0ht/2;
+  printf("The size of A1 paper height=%f , width=%f\n",A1ht, A1wd);
+  A2ht=A1wd;
+  A2wd=A1ht/2;
+  printf("The size of A2 paper height=%f , width=%f\n",A2ht, A2wd);
+  A3ht=A2wd;
+  A3wd=A2ht/2;
+  printf("The size of A3 paper height=%f , width=%f\n",A3ht, A3wd);
+  A4ht=A3wd;
+  A4wd=A3ht/2;
+  printf("The size of A4 paper height=%f , width=%f\n",A4ht, A4wd);
+  A5ht=A4wd;
+  A5wd=A4ht/2;
+  printf("The size of A5 paper height=%f , width=%f\n",A5ht, A5wd);
+  A6ht=A5wd;
+  A6wd=A5ht/2;
+  printf("The size of A6 paper height=%f , width=%f\n",A6ht, A6wd);
+  A7ht=A6wd;
+  A7wd=A6ht/2;
+  printf("The size of A7 paper height=%f , width=%f\n",A7ht, A7wd);
+  A8ht=A7wd;
+  A8wd=A7ht/2;
+  printf("The size of A8 paper height=%f , width=%f\n",A8ht, A8wd);
+}
