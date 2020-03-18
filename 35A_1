@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    int number, num, remainder, revnum;
+    revnum=0;
+    printf("Enter a five digit number: ");
+    scanf("%d", &number);
+    num=number;
+    remainder=number%10;
+    revnum=10000*remainder;
+    number=number/10;
+    remainder=number%10;
+    revnum=revnum+(remainder*1000);
+    number=number/10;
+    remainder=number%10;
+    revnum=revnum+(remainder*100);
+    number=number/10;
+    remainder=number%10;
+    revnum=revnum+(remainder*10);
+    number=number/10;
+    remainder=number%10;
+    revnum=revnum+number;
+    printf("The reverse number of number %d is: %d", num, revnum);
+
+}
