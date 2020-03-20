@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include <stdlib.h>
+#include<math.h>
+int main()
+{
+
+    float firstside, secondside, thirdside, perimeterhalf, area;
+    printf("Enter the first side of the triangle: ");
+    scanf("%f", &firstside);
+    printf("Enter the second side of the triangle: ");
+    scanf("%f", &secondside);
+    printf("Enter the third side of the triangle: ");
+    scanf("%f", &thirdside);
+    perimeterhalf=(firstside+secondside+thirdside)/2;
+    area=sqrt(perimeterhalf*(perimeterhalf-firstside)*(perimeterhalf-secondside)*(perimeterhalf-thirdside));
+    printf("The area of the triangle, whose sides are: %.2f, %.2f, and %.2f is: %.2f", firstside, secondside, thirdside, area);
+}
