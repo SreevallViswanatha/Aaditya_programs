@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    int num, number, sum, secondnumber, thirdnumber, fourthnumber;
+    printf("Enter a four-digit number: ");
+    scanf("%d", &number);
+    sum=0;
+    num=number;
+    fourthnumber=number%10;
+    number=number/10;
+    thirdnumber=number%10;
+    number=number/10;
+    secondnumber=number%10;
+    sum=secondnumber+thirdnumber+fourthnumber;
+    printf("The sum of the second, third, and fourth number in %d is: %d", num, sum);
+}
