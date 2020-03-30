@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    int secondnumber, num, number;
+    printf("Enter a four-digit number: ");
+    scanf("%d", &number);
+    num=number;
+    number=number/100;
+    secondnumber=number%10;
+    printf("The second number in %d is: %d", num, secondnumber);
+}
