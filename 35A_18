@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    int fourthnumber, num, number;
+    printf("\n\nEnter a four-digit number: ");
+    scanf("%d", &number);
+    num=number;
+    fourthnumber=number%10;
+    printf("The fourth number in %d is: %d",num, fourthnumber);
+}
