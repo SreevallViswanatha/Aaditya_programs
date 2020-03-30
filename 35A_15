@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    int firstnumber, num, number;
+    printf("Enter a four-digit number: ");
+    scanf("%d", &number);
+    num=number;
+    firstnumber=number/1000;
+    printf("The first number in %d is: %d", num, firstnumber);
+}
