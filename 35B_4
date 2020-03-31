@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    float marks1, marks2, marks3, marks4, marks5, aggregatemarks, percentagemarks;
+    printf("\nEnter the marks in subject1: ");
+    scanf("%f", &marks1);
+    printf("\nEnter the marks in subject2: ");
+    scanf("%f", &marks2);
+    printf("\nEnter the marks in subject3: ");
+    scanf("%f", &marks3);
+    printf("\nEnter the marks in subject4: ");
+    scanf("%f", &marks4);
+    printf("\nEnter the marks in subject5: ");
+    scanf("%f", &marks5);
+    aggregatemarks=marks1+marks2+marks3+marks4+marks5;
+    percentagemarks=aggregatemarks/5;
+    printf("\n\n\nThe aggregate marks is: %f\n\n\n\n", aggregatemarks);
+    printf("\n\n\nThe percentage marks is: %f\n\n\n\n", percentagemarks);
+}
