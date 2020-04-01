@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+   int C, D;
+   printf("\nEnter a number for C: ");
+   scanf("%d", &C);
+   printf("\nEnter a number for D: ");
+   scanf("%d", &D);
+   printf("\n\n\nThe values of C and D before swap is: C=%d, D=%d\n\n\n\n", C, D);
+   C=C+D;
+   D=C-D;
+   C=C-D;
+   printf("\n\n\nThe values of C and D after swap is: C=%d, D=%d\n\n\n\n", C, D);
+}
