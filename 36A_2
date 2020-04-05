@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+   int nohundred, nofifty, noten, amount, nofive, notwo, noone, number;
+   printf("Enter the amount: ");
+   scanf("%d", &amount);
+   number=amount;
+   nohundred=amount/100;
+   amount=amount%100;
+   nofifty=amount/50;
+   amount=amount%50;
+   noten=amount/10;
+   amount=amount%10;
+   nofive=amount/5;
+   amount=amount%5;
+   notwo=amount/2;
+   amount=amount%2;
+   noone=amount;
+   printf("\nThe number of hundreds in the amount %d is/are: %d", number, nohundred);
+   printf("\nThe number of fifties in the amount %d is/are: %d", number, nofifty);
+   printf("\nThe number of tens in the amount %d is/are: %d", number, noten);
+   printf("\nthe number of fives in the amount %d is/are: %d", number, nofive);
+   printf("\nThe number of twos in the amount %d is/are: %d", number, notwo);
+   printf("\nThe number of ones in the amount %d is/are: %d\n\n\n", number, noone);
+}
