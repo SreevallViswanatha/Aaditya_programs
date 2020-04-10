@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    int number, newnumber, firstdigit, num, seconddigit, thirddigit, fourthdigit, fifthdigit;
+    printf("\nEnter a five-digit number: ");
+    scanf("%d", &number);
+    num=number;
+    firstdigit=number/10000;
+    firstdigit=firstdigit+1;
+    firstdigit=firstdigit%10;
+    newnumber=firstdigit*10000;
+    seconddigit=number/1000;
+    seconddigit=seconddigit%10;
+    seconddigit=seconddigit+1;
+    seconddigit=seconddigit%10;
+    newnumber=newnumber+(seconddigit*1000);
+    thirddigit=number/100;
+    thirddigit=thirddigit%10;
+    thirddigit=thirddigit+1;
+    thirddigit=thirddigit%10;
+    newnumber=newnumber+(thirddigit*100);
+    fourthdigit=number/10;
+    fourthdigit=fourthdigit%10;
+    fourthdigit=fourthdigit+1;
+    fourthdigit=fourthdigit%10;
+    newnumber=newnumber+(fourthdigit*10);
+    fifthdigit=number%10;
+    fifthdigit=fifthdigit+1;
+    newnumber=newnumber+fifthdigit;
+    printf("The number is: %d, and the new number is: %d", num, newnumber);
+}
